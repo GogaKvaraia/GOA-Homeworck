@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Test</title>
+    <style>
+        video, iframe {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        audio {
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video and Audio Test</h1>
+
+    <h2>front flip:</h2>
+    <video controls>
+        <source src="video.mp4.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        <source src="video.ogv" type="video/ogg">
+        <p>Your browser does not support the video tag.</p>
+    </video>
+
+    <h2>youtube song</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbZSe6N_BXs?si=4kpgBKdhgBx-NiDt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <h2>titanick song:</h2>
+    <audio controls>
+        <source src="audio.mp3.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+        <source src="audio.wav" type="audio/wav">
+        <p>Your browser does not support the audio tag.</p>
+    </audio>
+</body>
+</html>
