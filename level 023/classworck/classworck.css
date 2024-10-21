@@ -1,0 +1,33 @@
+.wavy {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+
+.dotted {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+}
+
+.centered {
+    text-align: center;
+    position: relative;
+}
+
+.centered::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: black;
+    margin-bottom: 5px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-size: 12px; /* აქ შეგიძლიათ დააყენოთ საჭირო ზომა */
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
