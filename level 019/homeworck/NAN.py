@@ -1,1 +1,0 @@
-print ("araferi ar gamomivioda :(_____")
