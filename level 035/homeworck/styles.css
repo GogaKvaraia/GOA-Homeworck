@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .square-to-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    transition: all 0.3s ease;
+  }
+  
+  .square-to-circle:hover {
+    border-radius: 50%;
+    transform: translateX(50px);
+  }
+  
+  .circle-to-red {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .circle-to-red:active {
+    background-color: #e74c3c;
+    transform: translateY(100px);
+  }
+  
+  .rotate-square {
+    width: 100px;
+    height: 100px;
+    background-color: #9b59b6;
+    transition: transform 0.5s ease;
+  }
+  
+  .rotate-square:hover {
+    transform: rotate(-360deg);
+  }
+  
+  .grow-square {
+    width: 100px;
+    height: 100px;
+    background-color: #f39c12;
+    transition: transform 0.3s ease;
+  }
+  
+  .grow-square:hover {
+    transform: scale(2);
+  }
+  
