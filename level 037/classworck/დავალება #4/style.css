@@ -1,0 +1,35 @@
+@keyframes wireStretch {
+    0% {
+        transform: scale(1);
+        background-color: #FF3B3B;
+        opacity: 1;
+    }
+    20% {
+        transform: scale(1.2);
+        background-color: #4CAF50;
+        opacity: 0.9;
+    }
+    40% {
+        transform: scale(1.4);
+        background-color: #2196F3;
+        opacity: 0.8;
+    }
+    60% {
+        transform: scale(1.6);
+        background-color: #FF9800;
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(2);
+        background-color: #FF3B3B;
+        opacity: 1;
+    }
+}
+
+.wire {
+    width: 100px;
+    height: 10px;
+    background-color: #FF3B3B;
+    display: inline-block;
+    animation: wireStretch 5s infinite ease-in-out;
+}

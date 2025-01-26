@@ -1,0 +1,31 @@
+@keyframes rotateScale {
+    0% {
+        transform: rotate(0deg) scale(1);
+        background-color: #FFC107;
+        opacity: 1;
+    }
+    25% {
+        transform: rotate(90deg) scale(1.2);
+        background-color: #FF5722;
+        opacity: 0.9;
+    }
+    50% {
+        transform: rotate(180deg) scale(1.4);
+        background-color: #FF9800;
+        opacity: 0.8;
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+        background-color: #FFC107;
+        opacity: 1;
+    }
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #FFC107;
+    border-radius: 50%;
+    display: inline-block;
+    animation: rotateScale 4s infinite linear;
+}

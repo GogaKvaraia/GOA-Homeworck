@@ -1,0 +1,25 @@
+@keyframes pulse {
+    0% {
+        background-color: #ff6f61;
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        background-color: #ff3b3b;
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100% {
+        background-color: #ff6f61;
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6f61;
+    display: inline-block;
+    animation: pulse 2s infinite ease-in-out;
+}
