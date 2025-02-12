@@ -1,4 +1,3 @@
-
 name = "data"
 lastname = "diasamidze"
 age = 100
